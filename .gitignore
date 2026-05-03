@@ -216,3 +216,35 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# 数据
+data/raw/
+*.jpg
+*.png
+*.mp4
+*.avi
+*.mov
+
+# 模型权重
+pretrain/
+*.pth
+*.pt
+*.pkl
+*.onnx
+
+# 日志
+logs/
+
+# 缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# 环境
+venv/
+.env
+.venv
+
+# IDE
+.vscode/
+.idea/
