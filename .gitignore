@@ -248,3 +248,7 @@ venv/
 # IDE
 .vscode/
 .idea/
+
+# 允许上传分析结果图
+!scene_reports/**/*.png
+!scene_reports/**/*.csv
